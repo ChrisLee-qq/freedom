@@ -3,8 +3,23 @@
 	<head>
 		<meta charset="UTF-8">
 		<title></title>
+		<style>
+		h1{
+			height:100px;/
+			width: 100px;
+			border: 10px solid red;
+			font-size: 20px;
+			background: aquamarine;
+		}
+		</style>
 	</head>
 	<body>
-		<h1></h1>
+		<h1>12</h1>
 	</body>
+	<script>
+			var oH = document.getElementsByTagName('h1')[0]
+			oH.onclick=function(){
+				this.style.backgroundColor='pink'
+			}
+			</script>
 </html>
